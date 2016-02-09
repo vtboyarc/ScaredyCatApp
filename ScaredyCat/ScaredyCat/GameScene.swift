@@ -83,7 +83,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         //the name in quotes HAS to match the name of your image file in assets
         Cat = SKSpriteNode(imageNamed: "Cat")
-        Cat.size = CGSize(width: 60, height: 70)
+        Cat.size = CGSize(width: 60, height: 67) //y value was 70
         Cat.position = CGPoint(x: self.frame.width / 2 - Cat.frame.width, y: self.frame.height / 2)
         
         Cat.physicsBody = SKPhysicsBody(circleOfRadius: Cat.frame.height / 2)
@@ -183,7 +183,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
             Cat.physicsBody?.velocity = CGVectorMake(0, 0)
             //adjust the y value, higher makes jump higher
-            Cat.physicsBody?.applyImpulse(CGVectorMake(0, 90))
+            Cat.physicsBody?.applyImpulse(CGVectorMake(0, 80)) //was 90
         }
         else {
             if died == true {
@@ -192,7 +192,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             else {
             Cat.physicsBody?.velocity = CGVectorMake(0, 0)
             //adjust the y value, higher makes jump higher
-            Cat.physicsBody?.applyImpulse(CGVectorMake(0, 90))
+            Cat.physicsBody?.applyImpulse(CGVectorMake(0, 80)) //was 90
             }
         }
         
