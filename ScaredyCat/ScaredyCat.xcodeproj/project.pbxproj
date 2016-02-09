@@ -15,6 +15,7 @@
 		BC239B101C64207D009B48A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC239B0F1C64207D009B48A0 /* Assets.xcassets */; };
 		BC239B131C64207D009B48A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC239B111C64207D009B48A0 /* LaunchScreen.storyboard */; };
 		BC239B1B1C643E0F009B48A0 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC239B1A1C643E0F009B48A0 /* RandomFunction.swift */; };
+		BC239B1D1C69684B009B48A0 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BC239B1C1C69684B009B48A0 /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BC239B121C64207D009B48A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC239B141C64207D009B48A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC239B1A1C643E0F009B48A0 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		BC239B1C1C69684B009B48A0 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		BC239B031C64207D009B48A0 /* ScaredyCat */ = {
 			isa = PBXGroup;
 			children = (
+				BC239B1C1C69684B009B48A0 /* 04B_19__.TTF */,
 				BC239B041C64207D009B48A0 /* AppDelegate.swift */,
 				BC239B061C64207D009B48A0 /* GameScene.sks */,
 				BC239B081C64207D009B48A0 /* GameScene.swift */,
@@ -133,6 +136,7 @@
 			files = (
 				BC239B071C64207D009B48A0 /* GameScene.sks in Resources */,
 				BC239B131C64207D009B48A0 /* LaunchScreen.storyboard in Resources */,
+				BC239B1D1C69684B009B48A0 /* 04B_19__.TTF in Resources */,
 				BC239B101C64207D009B48A0 /* Assets.xcassets in Resources */,
 				BC239B0E1C64207D009B48A0 /* Main.storyboard in Resources */,
 			);
@@ -298,6 +302,7 @@
 				BC239B191C64207D009B48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
