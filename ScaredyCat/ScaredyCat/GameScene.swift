@@ -124,7 +124,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         if firstBody.categoryBitMask == PhysicsCategory.Score && secondBody.categoryBitMask == PhysicsCategory.Cat || firstBody.categoryBitMask == PhysicsCategory.Cat && secondBody.categoryBitMask == PhysicsCategory.Score {
             
-            score++
+            score += 1
             scoreLabel.text = "\(score)"
         }
         
@@ -280,7 +280,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     var bg = node as! SKSpriteNode
                     
-                    bg.position = CGPoint(x: bg.position.x - 6, y: bg.position.y)
+                    //update the "x - #" tomake harder or easier. Was 6.
+                    bg.position = CGPoint(x: bg.position.x - 4, y: bg.position.y)
                     
                     if bg.position.x <= -bg.size.width {
                         
